@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Pratyush Singh | Portfolio</title>
+    <link rel="icon" href="Image/engineer.ico" />
+    <!-- Bootstrap & styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="dark-mode.css" />
+    <!-- Fonts & icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Montserrat:wght@400;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
+    <!-- Vendor JS in head (needed for toggle & collapse) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="container-fluid body_section">
+    <!-- ===== NAVBAR ===== -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand brand-name" href="#"><span class="typewriter">Pratyush&nbsp;Singh</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link headerachor" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link headerachor" href="education.html">Education</a></li>
+            <li class="nav-item"><a class="nav-link headerachor" href="skill.html">Skills</a></li>
+            <li class="nav-item"><a class="nav-link headerachor" href="project.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link headerachor" href="contact.html">Contact Me</a></li>
+            <li><iframe id="toggle-iframe" onload="onIframeLoad()" src="toggle.html"></iframe></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section id="Home">
+      <div class="row column1">
+        <div class="col-lg-6 col-md-6 first-image"><img class="boyimage" src="Image/20200630_162659.gif" alt="Hello" /></div>
+        <div class="col-lg-6 section-1">
+          <h1 class="Hello">Hello World!<span class="wave">👋</span></h1>
+          <p>I’m Pratyush Singh a software engineer and researcher who loves building back-end systems that just work and front-end moments that make people smile. From Siemens production floors to cutting-edge AI labs at Clemson University, I solve real problems with clean architecture, a dash of curiosity, and a relentless drive for better performance.</p>
+          <div class="social_media_icon">
+            <a class="btn" href="https://www.linkedin.com/in/pratyushsingh20" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a class="btn" href="https://github.com/pratz-singh" target="_blank"><i class="fab fa-github"></i></a>
+            <a class="btn" href="mailto:psingh4@clemson.edu" target="_blank"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="Image-boy col-lg-6"><img class="boy" src="Image/Boy-image.png" alt="Developer" /></div>
+      </div>
+    </section>
+
+    <!-- ===== WHAT I DO ===== -->
+    <section id="Whatido" class="pt-5">
+      <h1 class="text-center mb-4">What I Do</h1>
+
+      <!-- Backend & API -->
+      <div class="row feature-1 mb-5 align-items-center">
+        <div class="col-lg-6 col-md-6 Feature-first-image text-center"><img class="Feature-svg-image img-fluid" src="Image/Data_Analysis.svg" alt="Backend" /></div>
+        <div class="col-lg-6 col-md-6">
+          <h2 class="Feature-Heading">Clemson University – Graduate Research &amp; Teaching Assistantt</h2>
+          <ul class="dev-icon mb-3">
+            <!-- Python -->
+  <li><i class="fab fa-python fa-3x" style="color:#3776AB"></i></li>
+
+  <!-- PyTorch (flame) -->
+  <li><i class="fas fa-fire fa-3x" style="color:#EE4C2C"></i></li>
+
+  <!-- Hugging Face (friendly smile) -->
+ <li>
+  <img src="Image/huggingface.svg"
+       alt="Hugging Face logo"
+       style="width:3rem; height:auto;">
+</li>
+
+  <!-- Google Colab (Google logo) -->
+  <li><i class="fab fa-google fa-3x" style="color:#4285F4"></i></li>
+
+  <!-- AWS -->
+  <li><i class="fab fa-aws fa-3x" style="color:#FF9900"></i></li>
+
+  <!-- Docker (portable runtimes) -->
+  <li><i class="fab fa-docker fa-3x"></i></li>
+
+  <!-- GitHub (version control & collaboration) -->
+  <li><i class="fab fa-github fa-3x"></i></li>
+
+  <!-- TensorBoard / metrics (chart) -->
+  <li><i class="fas fa-chart-line fa-3x"></i></li>
+
+  <!-- GPU & CUDA work (chip) -->
+  <li><i class="fas fa-microchip fa-3x"></i></li>
+
+  <!-- Experiment orchestration / Hydra configs (cogs) -->
+  <li><i class="fas fa-cogs fa-3x"></i></li>
+          </ul>
+          <p>💥 Mixture-of-Experts LLM training – build and evaluate PyTorch MoE models on Google Colab to improve routing efficiency, modularity, and explainability.</p>
+          <p>💥 Iterative fine-tuning workflow – collect task-specific datasets, fine-tune base- and chat-scale models, then compare outputs before and after tuning to steer development toward research goals.</p>
+          <p>💥 Cloud-computing course mentor – guided 50 + students through AWS, virtualization, and distributed-systems labs, grading assignments and unblocking infrastructure issues.</p>
+        </div>
+      </div>
+
+      <!-- Cloud & DevOps -->
+      <div class="row feature-2 mb-5 align-items-center flex-row-reverse">
+        <div class="col-lg-6 col-md-6 Feature-third-image text-center"><img class="Feature-svg-image-3 img-fluid" src="Image/Coding.svg" alt="LLM" /></div>
+        <div class="col-lg-6 col-md-6">
+          <h2 class="Feature-Heading">Siemens – Software Engineer</h2>
+          <ul class="dev-icon mb-3">
+            <ul class="flex gap-4">
+<li><i class="fab fa-java fa-3x" style="color:#007396"></i></li>
+
+  <!-- Spring Boot (leaf) -->
+  <li><i class="fas fa-leaf fa-3x" style="color:#6DB33F"></i></li>
+
+  <!-- JavaScript -->
+  <li><i class="fab fa-js fa-3x" style="color:#F7DF1E"></i></li>
+
+  <!-- Docker -->
+  <li><i class="fab fa-docker fa-3x"></i></li>
+
+  <!-- Kubernetes -->
+  <li><i class="fab fa-kubernetes fa-3x"></i></li>
+
+  <!-- PostgreSQL -->
+  <li><i class="fas fa-database fa-3x" style="color:#336791"></i></li>
+
+  <!-- Neo4j (graph icon) -->
+  <li><i class="fas fa-project-diagram fa-3x"></i></li>
+
+  <!-- GitLab CI -->
+  <li><i class="fab fa-gitlab fa-3x" style="color:#FC6D26"></i></li>
+
+  <!-- JUnit (test-tube icon as stand-in) -->
+  <li><i class="fas fa-vial fa-3x"></i></li>
+
+  <!-- General testing (bug icon) -->
+  <li><i class="fas fa-bug fa-3x"></i></li>
+
+          </ul>
+          <p>💥 Microservices that scale: Designed and shipped Java + Spring Boot services for an industrial-networking planner, clean REST contracts and Docker/K8s deployments keep each module independent and easy to extend.</p>
+          <p>💥 Latency sliced by 35 %: Indexed Neo4j graphs, tuned PostgreSQL queries, and introduced Redis caching—bringing most API calls under 100 ms even at peak plant traffic.</p>
+          <p>💥 CI/CD on autopilot: Built a GitLab pipeline with Helm charts and Sonar gates, shrinking release time from hours to minutes and guaranteeing every commit meets quality thresholds.</p>
+        </div>
+      </div>
+
+      <!-- LLM Research -->
+      <div class="row feature-3 align-items-center">
+        <div class="col-lg-6 col-md-6 text-center"><img class="Feature-svg-image-3 img-fluid" src="Image/website.svg" alt="Cloud" /></div>
+        <div class="col-lg-6 col-md-6">
+          <h2 class="Feature-Heading">Mediatech Pvt. Ltd. – Software Engineering Intern</h2>
+          <ul class="dev-icon mb-3">
+<!-- React -->
+  <li><i class="fab fa-react fa-3x" style="color:#61DAFB"></i></li>
+
+  <!-- Node.js / Express -->
+  <li><i class="fab fa-node-js fa-3x" style="color:#44883E"></i></li>
+
+  <!-- JavaScript -->
+  <li><i class="fab fa-js fa-3x" style="color:#F7DF1E"></i></li>
+
+  <!-- HTML5 -->
+  <li><i class="fab fa-html5 fa-3x" style="color:#E34F26"></i></li>
+
+  <!-- CSS3 -->
+  <li><i class="fab fa-css3-alt fa-3x" style="color:#1572B6"></i></li>
+
+  <!-- GitHub (repos & actions) -->
+  <li><i class="fab fa-github fa-3x"></i></li>
+
+  <!-- PostgreSQL -->
+  <li><i class="fas fa-database fa-3x" style="color:#336791"></i></li>
+            <li><i class="fas fa-brain fa-3x" style="color:#a8a7ff"></i></li>
+          </ul>
+          <p>💥 Secure auth & payments: Built JWT-based login plus third-party payment-gateway integration, hardening transaction reliability for the e-commerce platform.</p>
+          <p>💥 Real-time admin dashboard: Developed a responsive JavaScript / HTML / CSS interface with AJAX updates for sales, inventory, and transaction tracking, streamlining back-office workflows.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer text-center py-3">Made by Pratyush Singh • © 2025</footer>
+
+    <!-- Vendor scripts (duplicate safe) + toggle script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="dark-mode.js"></script>
+  </body>
+</html>

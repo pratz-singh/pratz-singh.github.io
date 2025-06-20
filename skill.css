@@ -1,0 +1,549 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+.body_section {
+  padding: 3% 5% 1%;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Lovely Home";
+  src: local("Lovely Home"), url("Image/LovelyHome-9aBZ.ttf") format("truetype");
+}
+
+.brand-name,
+.navbar-light .navbar-brand {
+  /* font-family: "Brush Script MT"; */
+  /* margin-bottom: 3px; */
+  font-family: "Lovely Home";
+  font-size: 50px;
+  font-weight: bold;
+  color: #351458;
+}
+
+@media only screen and (max-width: 764px) {
+  .brand-name,
+  .navbar-light .navbar-brand {
+    font-family: "Lovely Home";
+    font-size: 40px;
+    font-weight: bold;
+    color: #351458;
+  }
+}
+
+.headerachor {
+  color: black;
+  margin: 0 7px 0 7px;
+  font-size: 25px;
+}
+
+.headerachor:hover {
+  background-color: #f1f1f1;
+}
+
+.Section1 {
+  padding: 4% 0 3%;
+}
+
+.skill-img {
+  width: 100%;
+  height: 100%;
+}
+
+.Skill-heading {
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 300;
+}
+
+#SkillBox {
+  width: 95%;
+  height: auto;
+  margin: 40px auto;
+  padding: 10px;
+  border-radius: 50px;
+  -o-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+#SkillBox img {
+  width: 20%;
+  height: 10%;
+  margin: auto 35%;
+  padding: 10px;
+}
+.SkillBar {
+  width: 90%;
+  height: 50px;
+  position: relative;
+  border-radius: 20px;
+  /* background: rgba(17, 17, 17, .3); */
+  background: #c5c2ff;
+  margin: 20px auto;
+}
+
+#Skill-HTML {
+  width: 90%;
+  border-radius: 20px;
+  animation: Animate-HTML 4s;
+  -webkit-animation: Animate-HTML 4s;
+  -moz-animation: Animate-HTML 4s;
+  -o-animation: Animate-HTML 4s;
+  height: 50px;
+  position: absolute;
+  background-color: #6c63ff;
+}
+@keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+@-webkit-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+@-moz-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+@-o-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+#Skill-CSS {
+  animation: Animate-CSS 5s;
+  -webkit-animation: Animate-CSS 5s;
+  -moz-animation: Animate-CSS 5s;
+  -o-animation: Animate-CSS 5s;
+  border-radius: 20px;
+  width: 70%;
+  height: 50px;
+  position: absolute;
+  background-color: #6c63ff;
+}
+@keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-webkit-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-moz-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-o-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+#Skill-Python {
+  border-radius: 20px;
+  animation: Animate-Python 5s;
+  -webkit-animation: Animate-Python 5s;
+  -moz-animation: Animate-Python 5s;
+  -o-animation: Animate-Python 5s;
+  width: 80%;
+  height: 50px;
+  position: absolute;
+  background-color: #6c63ff;
+}
+@keyframes Animate-Python {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-webkit-keyframes Animate-Python {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-moz-keyframes Animate-Python {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-o-keyframes Animate-Python {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+#Skill-JS {
+  animation: Animate-JS 4s;
+  -webkit-animation: Animate-JS 4s;
+  -moz-animation: Animate-JS 4s;
+  -o-animation: Animate-JS 4s;
+  border-radius: 20px;
+  width: 65%;
+  height: 50px;
+  position: absolute;
+  background-color: #6c63ff;
+}
+@keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 65%;
+  }
+}
+@-webkit-keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 65%;
+  }
+}
+@-moz-keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 65%;
+  }
+}
+@-o-keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 65%;
+  }
+}
+
+
+#Skill-SQL {
+  animation: Animate-SQL 4s;
+  -webkit-animation: Animate-SQL 4s;
+  -moz-animation: Animate-SQL 4s;
+  -o-animation: Animate-SQL 4s;
+  border-radius: 20px;
+  width: 80%;
+  height: 50px;
+  position: absolute;
+  background-color: #6c63ff;
+}
+@keyframes Animate-SQL {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-webkit-keyframes Animate-SQL {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-moz-keyframes Animate-SQL {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-o-keyframes Animate-SQL {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+.Skill-Area {
+  z-index: 1;
+  float: left;
+  /* position: absolute; */
+  margin-top: 8px;
+  margin-left: 15px;
+  text-shadow: none;
+  color: #fff;
+   background:#fff;        /* white backdrop */
+  padding:5px;            /* space around the glyph */
+  border-radius:50%;      /* circle; delete this line for a square */
+  box-shadow:0 0 4px rgba(0,0,0,.1);  /* optional subtle shadow */
+}
+
+@media only screen and (max-width: 950px) {
+  body,
+  html {
+    text-align: center;
+    font-size: 16px;
+    line-height: normal;
+  }
+}
+
+footer {
+  padding-top: 2%;
+  color: #868e96;
+  text-align: center;
+}
+
+/* ───── NEW LANGUAGE BARS ───── */
+#Skill-Java{
+  border-radius:20px;
+  width:85%;                     /* adjust % as you like */
+  height:50px;
+  position:absolute;
+  background-color:#6c63ff;
+  animation:Animate-Java 5s;
+       -webkit-animation:Animate-Java 5s;
+       -moz-animation:Animate-Java 5s;
+       -o-animation:Animate-Java 5s;
+}
+@keyframes Animate-Java{from{width:10px;}to{width:85%;}}
+@-webkit-keyframes Animate-Java{from{width:10px;}to{width:85%;}}
+@-moz-keyframes Animate-Java{from{width:10px;}to{width:85%;}}
+@-o-keyframes Animate-Java{from{width:10px;}to{width:85%;}}
+
+/* ───── FRAMEWORKS & LIBS ───── */
+#Skill-Spring{
+  border-radius:20px;
+  width:85%;
+  height:50px;
+  position:absolute;
+  background-color:#6c63ff;
+  animation:Animate-Spring 5s;
+       -webkit-animation:Animate-Spring 5s;
+       -moz-animation:Animate-Spring 5s;
+       -o-animation:Animate-Spring 5s;
+}
+@keyframes Animate-Spring{from{width:10px;}to{width:85%;}}
+@-webkit-keyframes Animate-Spring{from{width:10px;}to{width:85%;}}
+@-moz-keyframes Animate-Spring{from{width:10px;}to{width:85%;}}
+@-o-keyframes Animate-Spring{from{width:10px;}to{width:85%;}}
+
+#Skill-React{
+  border-radius:20px;
+  width:70%;
+  height:50px;
+  position:absolute;
+  background-color:#6c63ff;
+  animation:Animate-React 5s;
+       -webkit-animation:Animate-React 5s;
+       -moz-animation:Animate-React 5s;
+       -o-animation:Animate-React 5s;
+}
+@keyframes Animate-React{from{width:10px;}to{width:70%;}}
+@-webkit-keyframes Animate-React{from{width:10px;}to{width:70%;}}
+@-moz-keyframes Animate-React{from{width:10px;}to{width:70%;}}
+@-o-keyframes Animate-React{from{width:10px;}to{width:70%;}}
+
+/* ───── CLOUD & DEVOPS ───── */
+#Skill-Docker{
+  border-radius:20px;
+  width:80%;
+  height:50px;
+  position:absolute;
+  background-color:#6c63ff;
+  animation:Animate-Docker 5s;
+       -webkit-animation:Animate-Docker 5s;
+       -moz-animation:Animate-Docker 5s;
+       -o-animation:Animate-Docker 5s;
+}
+@keyframes Animate-Docker{from{width:10px;}to{width:80%;}}
+@-webkit-keyframes Animate-Docker{from{width:10px;}to{width:80%;}}
+@-moz-keyframes Animate-Docker{from{width:10px;}to{width:80%;}}
+@-o-keyframes Animate-Docker{from{width:10px;}to{width:80%;}}
+
+#Skill-K8s{
+  border-radius:20px;
+  width:75%;
+  height:50px;
+  position:absolute;
+  background-color:#6c63ff;
+  animation:Animate-K8s 5s;
+       -webkit-animation:Animate-K8s 5s;
+       -moz-animation:Animate-K8s 5s;
+       -o-animation:Animate-K8s 5s;
+}
+@keyframes Animate-K8s{from{width:10px;}to{width:75%;}}
+@-webkit-keyframes Animate-K8s{from{width:10px;}to{width:75%;}}
+@-moz-keyframes Animate-K8s{from{width:10px;}to{width:75%;}}
+@-o-keyframes Animate-K8s{from{width:10px;}to{width:75%;}}
+
+#Skill-AWS{
+  border-radius:20px;
+  width:80%;
+  height:50px;
+  position:absolute;
+  background-color:#6c63ff;
+  animation:Animate-AWS 5s;
+       -webkit-animation:Animate-AWS 5s;
+       -moz-animation:Animate-AWS 5s;
+       -o-animation:Animate-AWS 5s;
+}
+@keyframes Animate-AWS{from{width:10px;}to{width:80%;}}
+@-webkit-keyframes Animate-AWS{from{width:10px;}to{width:80%;}}
+@-moz-keyframes Animate-AWS{from{width:10px;}to{width:80%;}}
+@-o-keyframes Animate-AWS{from{width:10px;}to{width:80%;}}
+
+/* ───── DATA / ML ───── */
+#Skill-PyTorch{
+  border-radius:20px;
+  width:70%;
+  height:50px;
+  position:absolute;
+  background-color:#6c63ff;
+  animation:Animate-PyTorch 5s;
+       -webkit-animation:Animate-PyTorch 5s;
+       -moz-animation:Animate-PyTorch 5s;
+       -o-animation:Animate-PyTorch 5s;
+}
+@keyframes Animate-PyTorch{from{width:10px;}to{width:70%;}}
+@-webkit-keyframes Animate-PyTorch{from{width:10px;}to{width:70%;}}
+@-moz-keyframes Animate-PyTorch{from{width:10px;}to{width:70%;}}
+@-o-keyframes Animate-PyTorch{from{width:10px;}to{width:70%;}}
+
+#Skill-TensorFlow{
+  border-radius:20px;
+  width:65%;
+  height:50px;
+  position:absolute;
+  background-color:#6c63ff;
+  animation:Animate-TF 5s;
+       -webkit-animation:Animate-TF 5s;
+       -moz-animation:Animate-TF 5s;
+       -o-animation:Animate-TF 5s;
+}
+@keyframes Animate-TF{from{width:10px;}to{width:65%;}}
+@-webkit-keyframes Animate-TF{from{width:10px;}to{width:65%;}}
+@-moz-keyframes Animate-TF{from{width:10px;}to{width:65%;}}
+@-o-keyframes Animate-TF{from{width:10px;}to{width:65%;}}
+
+/* ─── VERSION CONTROL ─── */
+#Skill-GitHub{
+  border-radius:20px;
+  width:85%;                       /* adjust proficiency % */
+  height:50px;
+  position:absolute;
+  background-color:#6c63ff;
+  animation:Animate-GitHub 5s;
+       -webkit-animation:Animate-GitHub 5s;
+       -moz-animation:Animate-GitHub 5s;
+       -o-animation:Animate-GitHub 5s;
+}
+@keyframes Animate-GitHub{from{width:10px;}to{width:85%;}}
+@-webkit-keyframes Animate-GitHub{from{width:10px;}to{width:85%;}}
+@-moz-keyframes Animate-GitHub{from{width:10px;}to{width:85%;}}
+@-o-keyframes Animate-GitHub{from{width:10px;}to{width:85%;}}
+
+/* ─── GRAPH DATABASE ─── */
+#Skill-Neo4j{
+  border-radius:20px;
+  width:70%;
+  height:50px;
+  position:absolute;
+  background-color:#6c63ff;
+  animation:Animate-Neo4j 5s;
+       -webkit-animation:Animate-Neo4j 5s;
+       -moz-animation:Animate-Neo4j 5s;
+       -o-animation:Animate-Neo4j 5s;
+}
+@keyframes Animate-Neo4j{from{width:10px;}to{width:70%;}}
+@-webkit-keyframes Animate-Neo4j{from{width:10px;}to{width:70%;}}
+@-moz-keyframes Animate-Neo4j{from{width:10px;}to{width:70%;}}
+@-o-keyframes Animate-Neo4j{from{width:10px;}to{width:70%;}}
+
+/* ─── C++ bar: corrected animation name ─── */
+#Skill-CPP{
+  border-radius:20px;
+  width:85%;
+  height:50px;
+  position:absolute;
+  background-color:#6c63ff;
+  animation:Animate-Cplus 4s;
+       -webkit-animation:Animate-Cplus 4s;
+       -moz-animation:Animate-Cplus 4s;
+       -o-animation:Animate-Cplus 4s;
+}
+
+@keyframes Animate-Cplus{from{width:10px;}to{width:85%;}}
+@-webkit-keyframes Animate-Cplus{from{width:10px;}to{width:85%;}}
+@-moz-keyframes Animate-Cplus{from{width:10px;}to{width:85%;}}
+@-o-keyframes Animate-Cplus{from{width:10px;}to{width:85%;}}
+
+#Skill-PostgreSQL{
+  border-radius:20px;
+  width:80%;              /* set proficiency % */
+  height:50px;
+  position:absolute;
+  background-color:#6c63ff;
+  animation:Animate-Postgre 5s;
+       -webkit-animation:Animate-Postgre 5s;
+       -moz-animation:Animate-Postgre 5s;
+       -o-animation:Animate-Postgre 5s;
+}
+
+@keyframes Animate-Postgre{from{width:10px;}to{width:80%;}}
+@-webkit-keyframes Animate-Postgre{from{width:10px;}to{width:80%;}}
+@-moz-keyframes Animate-Postgre{from{width:10px;}to{width:80%;}}
+@-o-keyframes Animate-Postgre{from{width:10px;}to{width:80%;}}
+
+
+/* text label sits inside the violet bar */
+.Skill-Label{
+  position:absolute;
+  left:60px;                 /* pushes text right of the icon */
+  top:50%;
+  transform:translateY(-50%);/* vertically center */
+  color:#fff;                /* white text on violet */
+  font-family:"Montserrat",sans-serif;
+  font-weight:600;
+  pointer-events:none;       /* keeps bars clickable if you ever add links */
+}

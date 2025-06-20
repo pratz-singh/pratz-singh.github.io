@@ -1,0 +1,24 @@
+/* ───── Type-writer effect for your name ───── */
+.typewriter {
+  position: relative;
+  white-space: nowrap;       /* keep on one line */
+}
+
+.typewriter::after {
+  content: '|';              /* the caret */
+  position: absolute;
+  right: 0;
+  width: 100%;
+  background: inherit;       /* inherits page bg so it “erases” the text */
+  animation:
+    typing 3s steps(14) forwards,   /* adjust 14 → # characters */
+    blink 1s step-end infinite;
+}
+
+@keyframes typing {
+  to { width: 0; }
+}
+
+@keyframes blink {
+  50% { color: transparent; }
+}
