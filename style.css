@@ -209,6 +209,16 @@ p {
   font-weight: 300;
 }
 
+.exp-meta{
+  font-family:"Open Sans",sans-serif;
+  font-weight:600;
+  font-size:1rem;
+  color:#6c757d;          /* same muted grey you use elsewhere */
+  margin-top:-6px;        /* tucks it tight under the heading */
+  margin-bottom:12px;
+}
+
+
 .Feature-first-image {
   padding: 0 2% 10%;
 }
